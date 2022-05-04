@@ -150,11 +150,13 @@ See [instructions here](docs/nginx-reverse-proxy.md) for using nginx+certbot (le
 
 # Support
 
-If you get value from this project, please consider supporting my work with a donation. All donations are truly appreciated.
+If you get value from this project, please consider supporting the original author.
 
-Donate via SFN Pay Server:
+https://github.com/janoside/btc-rpc-explorer
 
-* [https://donate.softnoteexplorer.org](https://donate.softnoteexplorer.org)
+Donate via BTC Pay Server:
+
+* [https://bitcoinexplorer.org](https://bitcoinexplorer.org)
 
 Or, via a lightning address:
 
