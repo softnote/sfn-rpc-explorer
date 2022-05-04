@@ -1,0 +1,19 @@
+extends layout
+
+block headContent
+	title #{coinConfig.name} Quotes
+
+block content
+	+pageTitle(`${coinConfig.name} Quotes`)
+
+
+	+dismissableInfoAlert("quotesNoteDismissed", "About Softnote Quotes...")
+		h6.mb-2 About Softnote Quotes
+
+		| This is a curated list of quotes that highlight key ideas in Softnote and related areas.
+
+
+
+	each quote, quoteIndex in sfnQuotes
+		.mt-3.mb-4
+			+quote(quote, quoteIndex)
